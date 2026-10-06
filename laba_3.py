@@ -1,5 +1,5 @@
 import  numpy as np
-import pandas as pd
+#import pandas as pd
 import matplotlib.pyplot as plt
 np.random.seed(42)
 test_data = np.random.normal(loc =50 ,scale=2 , size= 10_000)
