@@ -26,11 +26,11 @@ ax1.hist(df, bins=50, color='blue', edgecolor='black', alpha=0.7)
 ax1.axvline(df['response_time_ms'].mean(), color='red', linestyle='-', linewidth=2.5, label=f'Среднее ({df['response_time_ms'].mean():.2f})')
 
 for i in range(1, 4):
-    # Линия в ПРАВУЮ сторону (Среднее + i * Сигма)
+
     ax1.axvline(df['response_time_ms'].mean() + i * df['response_time_ms'].std(), color='orange', linestyle='--', linewidth=1.5,
                 label=f'±{i}σ' if i == 1 else "")  # label пишем один раз, чтобы не дублировать в легенде
 
-    # Линия в ЛЕВУЮ сторону (Среднее - i * Сигма)
+
     ax1.axvline(df['response_time_ms'].mean() - i * df['response_time_ms'].std(), color='orange', linestyle='--', linewidth=1.5)
 
 print('Пункт 3')
@@ -67,14 +67,13 @@ else:
 
 print('Пункт 5')
 print(f'Асимметрия:{scipy.stats.skew(df['response_time_ms']):.2f}')
-print(f'Эксцесс:{scipy.stats.skew(df['response_time_ms']):.2f}')
+print(f'Эксцесс:{scipy.stats.kurtosis(df['response_time_ms']):.2f}')
 
 plt.style.use('seaborn-v0_8-whitegrid')
 
-# Отрисовка ГРАФИКА 2: Box Plot (Ящик с усами)
+
 plt.figure(figsize=(10, 4))
 
-# ИСПРАВЛЕНО: Корректные параметры boxplot для matplotlib (горизонтальный вид и заливка цвета)
 plt.boxplot(
     df["response_time_ms"],
     vert=False,
@@ -87,7 +86,7 @@ plt.title("Box Plot (Ящик с усами) для времени отклик�
 plt.xlabel("Время отклика (мс)", fontsize=12)
 plt.grid(axis='x', alpha=0.5)
 
-# Показываем оба созданных окна с графиками
+
 plt.show()
 
 ax1.set_title('Распределение времени отклика')
