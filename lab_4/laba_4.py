@@ -5,8 +5,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import scipy.stats
 
-
-df = pd.read_csv('logs.csv', sep=';', decimal=',')
+#Путь экселя разный может быть
+df = pd.read_csv('lab_4/logs.csv', sep=';', decimal=',') #Путь экселя разный может быть
 print(f"Успешно прочитано. Длина: {len(df)}")
 
 print('Этап 2 ')
