@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c2628ab-cddc-430a-8c01-a3d93ff87b62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lab_5/5_1_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_5/5_1_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_5/5_1_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_5/5_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_5/5_4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laba_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab_2/laba_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laba_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab_3/laba_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laba_3_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab_3/laba_3_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laba_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab_4/laba_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lab_4/logs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_5/5_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab_5/5_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_5/5_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab_5/5_3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +40,8 @@
     "Python.5_1_2.executor": "Run",
     "Python.5_1_3.executor": "Run",
     "Python.5_2.executor": "Run",
+    "Python.5_3.executor": "Run",
+    "Python.5_4.executor": "Run",
     "Python.laba_2.executor": "Run",
     "Python.laba_3.executor": "Run",
     "Python.laba_3_2.executor": "Run",
@@ -81,58 +77,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="C:\Users\shchi\PycharmProjects\bd_labs\lab_5\5_1_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5_1_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="bd_labs" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="C:\Users\shchi\PycharmProjects\bd_labs\lab_5\5_1_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5_1_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="bd_labs" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="C:\Users\shchi\PycharmProjects\bd_labs\lab_5\5_1_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_5/5_1_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,6 +106,52 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_5/5_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bd_labs" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_5/5_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bd_labs" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_5/5_4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,10 +186,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.5_2" />
-        <item itemvalue="Python.laba_4 (1)" />
-        <item itemvalue="Python.5_1_3" />
-        <item itemvalue="Python.5_1_2" />
         <item itemvalue="Python.5_1_1" />
+        <item itemvalue="Python.5_4" />
+        <item itemvalue="Python.5_3" />
+        <item itemvalue="Python.laba_4 (1)" />
       </list>
     </recent_temporary>
   </component>
